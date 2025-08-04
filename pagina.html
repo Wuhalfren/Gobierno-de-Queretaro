@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convocatoria – Viaje a Cancún</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* ENCABEZADO */
+        header {
+            background-color: #003366;
+            color: white;
+        }
+
+        .top-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .top-header img {
+            height: 60px;
+        }
+
+        .top-header .titulo {
+            text-align: center;
+            flex: 1;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .top-header .fecha {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* MENÚ */
+        nav {
+            background-color: #00264d;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* CUERPO */
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        .contenido {
+            line-height: 1.6;
+        }
+
+        .lista {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        /* BOTÓN PDF */
+        .boton-pdf {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #0066cc;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .boton-pdf:hover {
+            background-color: #004d99;
+        }
+
+        /* PIE DE PÁGINA */
+        footer {
+            background-color: #eeeeee;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .logos img {
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .titulo-colab {
+            text-align: center;
+            color: #003366;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="top-header">
+        <!-- LOGO IZQUIERDA -->
+        <img src="logo-gobierno-queretaro2.png" alt="Logo Gobierno de Querétaro">
+
+        <!-- TEXTO CENTRAL -->
+        <div class="titulo">
+            Gobierno del Estado de Querétaro<br>
+            Secretaría de Educación
+        </div>
+
+        <!-- FECHA DERECHA -->
+        <div class="fecha">
+            Agosto 2025
+        </div>
+    </div>
+
+    <!-- MENÚ -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="convocatoria.pdf">Convocatorias</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Convocatoria – Viaje Académico a Cancún</h1>
+    <p class="contenido">
+        La institución invita a todos los estudiantes interesados a participar en el viaje académico a la ciudad de Cancún, con el objetivo de fortalecer la experiencia cultural y académica de nuestra comunidad.
+    </p>
+
+    <h2>Incluye:</h2>
+    <ul class="lista">
+        <li>Vuelo redondo en clase turista.</li>
+        <li>Hospedaje en habitación doble en hotel asignado por la institución.</li>
+        <li>Traslados internos dentro de la ciudad y a las sedes del evento.</li>
+        <li>Asistencia logística durante toda la estancia.</li>
+    </ul>
+
+    <p class="contenido">
+        La selección de participantes estará sujeta a los criterios establecidos por la institución.  
+        Para más información, consulta las bases completas en la coordinación correspondiente.
+    </p>
+
+    <!-- BOTÓN PARA DESCARGAR PDF -->
+    <a href="convocatoria.pdf" class="boton-pdf" download>📄 Descargar Convocatoria en PDF</a>
+</main>
+
+<footer>
+    <h3 class="titulo-colab">Colaboradores</h3>
+    <div class="logos">
+        <!-- LOGOS DE COLABORADORES -->
+        <img src="logo-anahuac.png" alt="Universidad Anáhuac">
+        <img src="logo-uaq.png" alt="Universidad Autónoma de Querétaro">
+        <img src="logo-sep.png" alt="Secretaría de Educación Pública">
+        <img src="logo-turismo.png" alt="Secretaría de Turismo">
+        <img src="logo-aeromexico.png" alt="Aeroméxico">
+        <img src="quintana.png" alt="Aeroméxico">
+
+    </div>
+</footer>
+
+</body>
+</html>
